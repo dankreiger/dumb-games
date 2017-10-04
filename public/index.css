@@ -1,0 +1,33 @@
+/* base */
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  background: #000;
+  color: #fff;
+}
+
+/* atoms */
+.flex {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-columns {
+  flex-direction: column;
+}
+
+/* custom styles */
+a {
+  transition: 0.2s all ease;
+  font-size: 2em;
+  color: #eee;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: #fff;
+}
