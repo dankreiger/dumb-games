@@ -109,7 +109,7 @@ function nextPlayer() {
 }
 
 document.querySelector('.btn-new').addEventListener('click', init);
-document.querySelector('.btn-back').addEventListener('click', function(){
+document.querySelector('.btn-home').addEventListener('click', function(){
   window.location.href = '/'
 });
 

@@ -159,8 +159,8 @@ i {
     transition: margin 0.3s;
 }
 
-.btn-back { top: 52px; left: 27rem;}
-.btn-new { top: 52px; left: 37rem;}
+.btn-home { top: 14px; }
+.btn-new { top: 62px; }
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
